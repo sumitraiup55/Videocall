@@ -34,7 +34,7 @@ function HomeComponent() {
         background: 'rgba(34,34,59,0.15)',
         backdropFilter: 'blur(4px)',
       }}>
-        <Typography variant="h4" fontWeight={700} letterSpacing={1}>Video Call</Typography>
+        <Typography variant="h4" fontWeight={700} letterSpacing={1}>LiveLink</Typography>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           <IconButton onClick={() => navigate("/history")} sx={{ color: '#fff' }}>
             <RestoreIcon />

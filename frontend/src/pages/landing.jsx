@@ -26,7 +26,7 @@ export default function LandingPage() {
         gap: isMobile ? '1rem' : 0,
       }}>
         <div className='navHeader'>
-          <h2 style={{ fontWeight: 700, fontSize: '2rem', letterSpacing: 1 }}>Video Call</h2>
+          <h2 style={{ fontWeight: 700, fontSize: '2rem', letterSpacing: 1 }}>LiveLink</h2>
         </div>
         <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
           <button onClick={() => router("/aljk23")}
