@@ -1,4 +1,4 @@
-# Videocall
+# LiveLink
 
 A full-stack video calling application built with Node.js, Express, Socket.io, MongoDB, and React.
 
