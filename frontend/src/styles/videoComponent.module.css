@@ -4,6 +4,60 @@
     background: rgb(1, 4, 48);
 }
 
+@media (max-width: 900px) {
+    .conferenceView {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .conferenceView video {
+        width: 80vw;
+        min-width: 60vw;
+        height: 25vh;
+    }
+    .chatRoom {
+        width: 60vw;
+        min-width: 200px;
+        height: 40vh;
+        position: static;
+        margin: 0 auto 20px auto;
+    }
+    .meetUserVideo {
+        left: 10vw;
+        width: 40vw;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .conferenceView {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .conferenceView video {
+        width: 95vw;
+        min-width: 90vw;
+        height: 20vh;
+    }
+    .chatRoom {
+        width: 95vw;
+        min-width: 150px;
+        height: 30vh;
+        position: static;
+        margin: 0 auto 10px auto;
+        padding-inline: 5px;
+    }
+    .meetUserVideo {
+        left: 2vw;
+        width: 60vw;
+        height: 10vh;
+    }
+    .buttonContainers svg {
+        font-size: 2rem;
+    }
+}
+
 .meetUserVideo {
     position: absolute;
     bottom: 10vh;
