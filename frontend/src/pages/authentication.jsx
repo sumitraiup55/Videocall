@@ -113,7 +113,7 @@ export default function Authentication() {
               <LockOutlinedIcon sx={{ color: '#fff', fontSize: 36 }} />
             </Box>
             <Typography variant="h5" fontWeight={700} color="secondary.main" gutterBottom>
-              {formState === 0 ? 'Sign In to Videocall' : 'Create your account'}
+              {formState === 0 ? 'Sign In to LiveLink' : 'Create your account'}
             </Typography>
           </Box>
           <Box component="form" noValidate sx={{ width: '100%' }}>
